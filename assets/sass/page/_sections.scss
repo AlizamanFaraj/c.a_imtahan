@@ -1,0 +1,539 @@
+main {
+  .container_business {
+    margin: auto;
+    .business_theme {
+      background-image: url("https://preview.colorlib.com/theme/onepro/img/slider/slide-1.jpg.webp") !important;
+      background-size: cover;
+      height: 600px;
+      width: 100%;
+
+      .businiess {
+        color: silver;
+        margin-left: 100px;
+        padding-top: 200px;
+        h1 {
+          padding: 30px 0px;
+        }
+        h4 {
+          text-align: start;
+          padding-right: 50%;
+        }
+        .see_our_project {
+          background-color: aqua;
+          color: white;
+          border: 0px;
+          border-radius: 5px;
+          padding: 10px;
+          margin-top: 30px;
+        }
+      }
+
+      .left_right_button {
+        display: flex;
+        justify-content: end;
+        margin-right: 20px;
+        .left_chevrot {
+          margin-right: 10px;
+          background-color: aqua;
+          color: white;
+          padding: 20px;
+          cursor: pointer;
+        }
+
+        .right_chevrot {
+          background-color: aqua;
+          padding: 20px;
+          color: white;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+main {
+  .container {
+    .web_photography_online {
+      padding: 80px 0px;
+      .three_card {
+        gap: 25px;
+        display: flex;
+        justify-content: space-between;
+        .web_devolopment {
+          width: 400px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          .icon {
+            border: 2px solid aqua;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+          }
+          .h3 {
+            padding: 5px;
+          }
+          p {
+            text-align: center;
+          }
+          .le_mo_btn {
+            width: 150px;
+            height: 50px;
+            border-radius: 5px;
+            border: 0px;
+            background-color: aqua;
+            color: white;
+          }
+        }
+        .photography {
+          width: 400px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          .icon {
+            border: 2px solid aqua;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+          }
+          .h3 {
+            padding: 5px;
+          }
+          p {
+            text-align: center;
+          }
+          .le_mo_btn {
+            width: 150px;
+            height: 50px;
+            border-radius: 5px;
+            border: 0px;
+            background-color: aqua;
+            color: white;
+          }
+        }
+        .online_marketing {
+          width: 400px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          .icon {
+            border: 2px solid aqua;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+          }
+          .h3 {
+            padding: 5px;
+          }
+          p {
+            text-align: center;
+          }
+          .le_mo_btn {
+            width: 150px;
+            height: 50px;
+            border-radius: 5px;
+            border: 0px;
+            background-color: aqua;
+            color: white;
+          }
+        }
+      }
+    }
+
+    .we_are_themecreator {
+      display: flex;
+      justify-content: space-between;
+      .about_our_company {
+        width: 400px;
+        p {
+          color: silver;
+        }
+        .learn_mo {
+          background-color: aqua;
+          border: 0px;
+          padding: 10px;
+          border-radius: 5px;
+          color: white;
+        }
+      }
+      .web_dewolopers_programs {
+        .html {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 400px;
+          height: 40px;
+          background-color: rgb(0, 128, 96);
+          margin-bottom: 20px;
+        }
+        .css {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 450px;
+          height: 40px;
+          background-color: #33495d;
+          margin-bottom: 20px;
+        }
+        .jquery {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 300px;
+          height: 40px;
+          background-color: #fbd954;
+          margin-bottom: 20px;
+        }
+        .php {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 340px;
+          height: 40px;
+          background-color: #149ef9;
+          margin-bottom: 20px;
+        }
+        .photoshop {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 500px;
+          height: 40px;
+          background-color: #f96620;
+        }
+      }
+    }
+
+    .our_awesome_project {
+      text-align: center;
+      margin-top: 50px;
+      h1 {
+        color: aqua;
+      }
+      p {
+        padding: 10px 20%;
+      }
+      .all_digital {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        font-weight: bold;
+        div{
+            cursor: pointer;
+        }
+      }
+    }
+
+    .collections {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+
+      .images {
+        div {
+          img {
+            width: 100%;
+            padding: 10px;
+          }
+        }
+      }
+      .images_part2 {
+        div {
+          img {
+            width: 100%;
+            padding: 10px;
+          }
+        }
+      }
+      .images_part3 {
+        div {
+          img {
+            width: 100%;
+            padding: 10px;
+          }
+        }
+      }
+    }
+
+    .meet_our_team {
+      margin-top: 50px;
+      text-align: center;
+      h1 {
+        color: aqua;
+      }
+      .team_models {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+
+        div {
+          text-align: center;
+          img {
+            width: 250px;
+            height: 300px;
+          }
+          .name {
+            background-color: #149ef9;
+            color: white;
+            h3 {
+              font-size: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .web_photography_online {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .container {
+      .web_photography_online {
+        .three_card {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          div {
+            margin-bottom: 20px;
+          }
+        }
+      }
+
+      .we_are_themecreator {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .web_dewolopers_programs {
+          margin-top: 50px;
+          margin-bottom: 50px;
+        }
+      }
+
+      .collections {
+        display: flex;
+        flex-direction: column;
+
+        .images {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+      }
+
+      .meet_our_team {
+        display: flex;
+        flex-direction: column;
+        .team_models {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 968px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .web_photography_online {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .container {
+      .web_photography_online {
+        .three_card {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          div {
+            margin-bottom: 20px;
+          }
+        }
+      }
+
+      .we_are_themecreator {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .web_dewolopers_programs {
+          margin-top: 50px;
+          margin-bottom: 50px;
+        }
+      }
+
+      .collections {
+        display: flex;
+        flex-direction: column;
+
+        .images {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+      }
+
+      .meet_our_team {
+        display: flex;
+        flex-direction: column;
+        .team_models {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}
+
+//   dklgjdshgj
+
+@media screen and (max-width: 568px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .web_photography_online {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .container {
+      .web_photography_online {
+        .three_card {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          div {
+            margin-bottom: 20px;
+          }
+        }
+      }
+
+      .we_are_themecreator {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .web_dewolopers_programs {
+          margin-top: 50px;
+          margin-bottom: 50px;
+        }
+      }
+
+      .collections {
+        display: flex;
+        flex-direction: column;
+
+        .images {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+      }
+
+      .meet_our_team {
+        display: flex;
+        flex-direction: column;
+        .team_models {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}
+
+//   dfhdsfjk
+@media screen and (max-width: 867px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .web_photography_online {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .container {
+      .web_photography_online {
+        .three_card {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          div {
+            margin-bottom: 20px;
+          }
+        }
+      }
+
+      .we_are_themecreator {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .about_our_company {
+          text-align: center;
+        }
+
+        .web_dewolopers_programs {
+          margin-top: 50px;
+          margin-bottom: 50px;
+        }
+      }
+
+      .collections {
+        display: flex;
+        flex-direction: column;
+
+        .images {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+      }
+
+      .meet_our_team {
+        display: flex;
+        flex-direction: column;
+        .team_models {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}

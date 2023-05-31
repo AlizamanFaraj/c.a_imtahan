@@ -1,0 +1,547 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: rgb(36, 36, 36);
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+header nav {
+  background-color: white;
+  width: 100%;
+}
+header nav .container_nav {
+  width: 1326px;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .container_nav .lists {
+  display: flex;
+  gap: 25px;
+  font-weight: 500;
+}
+header nav .container_nav .lists div {
+  cursor: pointer;
+}
+header nav .container_nav .menu {
+  padding: 10px;
+  border: 2px solid white;
+  color: white;
+  background-color: black;
+}
+header nav .container_nav .menu i {
+  padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  header nav {
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+  }
+  header nav .container_nav {
+    width: 1326px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header nav .container_nav .lists {
+    display: none;
+  }
+  header nav .container_nav .menu {
+    display: block;
+  }
+}
+@media screen and (min-width: 768px) {
+  header nav .container_nav {
+    width: 1326px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header nav .container_nav .menu {
+    display: none;
+  }
+}
+main .container_business {
+  margin: auto;
+}
+main .container_business .business_theme {
+  background-image: url("https://preview.colorlib.com/theme/onepro/img/slider/slide-1.jpg.webp") !important;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
+main .container_business .business_theme .businiess {
+  color: silver;
+  margin-left: 100px;
+  padding-top: 200px;
+}
+main .container_business .business_theme .businiess h1 {
+  padding: 30px 0px;
+}
+main .container_business .business_theme .businiess h4 {
+  text-align: start;
+  padding-right: 50%;
+}
+main .container_business .business_theme .businiess .see_our_project {
+  background-color: aqua;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 30px;
+}
+main .container_business .business_theme .left_right_button {
+  display: flex;
+  justify-content: end;
+  margin-right: 20px;
+}
+main .container_business .business_theme .left_right_button .left_chevrot {
+  margin-right: 10px;
+  background-color: aqua;
+  color: white;
+  padding: 20px;
+  cursor: pointer;
+}
+main .container_business .business_theme .left_right_button .right_chevrot {
+  background-color: aqua;
+  padding: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+main .container .web_photography_online {
+  padding: 80px 0px;
+}
+main .container .web_photography_online .three_card {
+  gap: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+main .container .web_photography_online .three_card .web_devolopment {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .container .web_photography_online .three_card .web_devolopment .icon {
+  border: 2px solid aqua;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+main .container .web_photography_online .three_card .web_devolopment .h3 {
+  padding: 5px;
+}
+main .container .web_photography_online .three_card .web_devolopment p {
+  text-align: center;
+}
+main .container .web_photography_online .three_card .web_devolopment .le_mo_btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: aqua;
+  color: white;
+}
+main .container .web_photography_online .three_card .photography {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .container .web_photography_online .three_card .photography .icon {
+  border: 2px solid aqua;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+main .container .web_photography_online .three_card .photography .h3 {
+  padding: 5px;
+}
+main .container .web_photography_online .three_card .photography p {
+  text-align: center;
+}
+main .container .web_photography_online .three_card .photography .le_mo_btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: aqua;
+  color: white;
+}
+main .container .web_photography_online .three_card .online_marketing {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .container .web_photography_online .three_card .online_marketing .icon {
+  border: 2px solid aqua;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+main .container .web_photography_online .three_card .online_marketing .h3 {
+  padding: 5px;
+}
+main .container .web_photography_online .three_card .online_marketing p {
+  text-align: center;
+}
+main .container .web_photography_online .three_card .online_marketing .le_mo_btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: aqua;
+  color: white;
+}
+main .container .we_are_themecreator {
+  display: flex;
+  justify-content: space-between;
+}
+main .container .we_are_themecreator .about_our_company {
+  width: 400px;
+}
+main .container .we_are_themecreator .about_our_company p {
+  color: silver;
+}
+main .container .we_are_themecreator .about_our_company .learn_mo {
+  background-color: aqua;
+  border: 0px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+main .container .we_are_themecreator .web_dewolopers_programs .html {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  height: 40px;
+  background-color: rgb(0, 128, 96);
+  margin-bottom: 20px;
+}
+main .container .we_are_themecreator .web_dewolopers_programs .css {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 450px;
+  height: 40px;
+  background-color: #33495d;
+  margin-bottom: 20px;
+}
+main .container .we_are_themecreator .web_dewolopers_programs .jquery {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  height: 40px;
+  background-color: #fbd954;
+  margin-bottom: 20px;
+}
+main .container .we_are_themecreator .web_dewolopers_programs .php {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 340px;
+  height: 40px;
+  background-color: #149ef9;
+  margin-bottom: 20px;
+}
+main .container .we_are_themecreator .web_dewolopers_programs .photoshop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  height: 40px;
+  background-color: #f96620;
+}
+main .container .our_awesome_project {
+  text-align: center;
+  margin-top: 50px;
+}
+main .container .our_awesome_project h1 {
+  color: aqua;
+}
+main .container .our_awesome_project p {
+  padding: 10px 20%;
+}
+main .container .our_awesome_project .all_digital {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-weight: bold;
+}
+main .container .our_awesome_project .all_digital div {
+  cursor: pointer;
+}
+main .container .collections {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+main .container .collections .images div img {
+  width: 100%;
+  padding: 10px;
+}
+main .container .collections .images_part2 div img {
+  width: 100%;
+  padding: 10px;
+}
+main .container .collections .images_part3 div img {
+  width: 100%;
+  padding: 10px;
+}
+main .container .meet_our_team {
+  margin-top: 50px;
+  text-align: center;
+}
+main .container .meet_our_team h1 {
+  color: aqua;
+}
+main .container .meet_our_team .team_models {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+main .container .meet_our_team .team_models div {
+  text-align: center;
+}
+main .container .meet_our_team .team_models div img {
+  width: 250px;
+  height: 300px;
+}
+main .container .meet_our_team .team_models div .name {
+  background-color: #149ef9;
+  color: white;
+}
+main .container .meet_our_team .team_models div .name h3 {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .web_photography_online {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .container .web_photography_online .three_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .container .web_photography_online .three_card div {
+    margin-bottom: 20px;
+  }
+  main .container .we_are_themecreator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .container .we_are_themecreator .web_dewolopers_programs {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  main .container .collections {
+    display: flex;
+    flex-direction: column;
+  }
+  main .container .collections .images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .container .meet_our_team {
+    display: flex;
+    flex-direction: column;
+  }
+  main .container .meet_our_team .team_models {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 968px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .web_photography_online {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .container .web_photography_online .three_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .container .web_photography_online .three_card div {
+    margin-bottom: 20px;
+  }
+  main .container .we_are_themecreator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .container .we_are_themecreator .web_dewolopers_programs {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  main .container .collections {
+    display: flex;
+    flex-direction: column;
+  }
+  main .container .collections .images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .container .meet_our_team {
+    display: flex;
+    flex-direction: column;
+  }
+  main .container .meet_our_team .team_models {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 568px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .web_photography_online {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .container .web_photography_online .three_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .container .web_photography_online .three_card div {
+    margin-bottom: 20px;
+  }
+  main .container .we_are_themecreator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .container .we_are_themecreator .web_dewolopers_programs {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  main .container .collections {
+    display: flex;
+    flex-direction: column;
+  }
+  main .container .collections .images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .container .meet_our_team {
+    display: flex;
+    flex-direction: column;
+  }
+  main .container .meet_our_team .team_models {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 867px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .web_photography_online {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .container .web_photography_online .three_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .container .web_photography_online .three_card div {
+    margin-bottom: 20px;
+  }
+  main .container .we_are_themecreator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .container .we_are_themecreator .about_our_company {
+    text-align: center;
+  }
+  main .container .we_are_themecreator .web_dewolopers_programs {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  main .container .collections {
+    display: flex;
+    flex-direction: column;
+  }
+  main .container .collections .images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .container .meet_our_team {
+    display: flex;
+    flex-direction: column;
+  }
+  main .container .meet_our_team .team_models {
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=main.css.map */
